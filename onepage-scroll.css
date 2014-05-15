@@ -46,7 +46,7 @@ body, .onepage-wrapper, html {
   width: 4px;
   height: 4px;
   display: block;
-  
+
 }
 .onepage-pagination li a:before{
   content: '';
@@ -69,7 +69,9 @@ body, .onepage-wrapper, html {
 }
 
 .disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .disabled-onepage-scroll .onepage-wrapper .section {
