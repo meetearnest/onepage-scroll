@@ -391,6 +391,9 @@
             case 34: //page dwn
               if (tag != 'input' && tag != 'textarea') el.moveDown()
             break;
+            case 32: //space bar
+              if (tag != 'input' && tag != 'textarea') el.moveDown()
+              break;
             case 36: //home
               el.moveTo(1);
             break;
